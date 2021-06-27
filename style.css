@@ -1,0 +1,43 @@
+body {
+    background-color: green;
+    text-align: center;
+}
+.container {
+    position: relative;
+    width: 400px;
+    margin: 20% auto;
+}
+.white-keys, .black-keys {
+    width: 100%;
+    position: absolute;
+}
+.white-keys kbd {
+    display: inline-block;
+    width: 10%;
+    padding: 130px 0 60px;
+    border: 2px solid gray;
+    background-color: #FFF;
+}
+.black-keys kbd {
+    position: absolute;
+    display: inline-block;
+    width: 7%;
+    padding: 70px 0 30px;
+    background-color: #000;
+    color: #fff;
+}
+#W {
+    left: 16%;
+}
+#E {
+    left: 28.5%;
+}
+#T {
+    left: 52.5%;
+}
+#Y {
+    left: 64.5%;
+}
+#U {
+    left: 76.5%;
+}
